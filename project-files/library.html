@@ -1,0 +1,16 @@
+<script>
+
+var helpers = {
+
+    randomNumber: function(start, end) {
+
+        var difference = end - start;
+        return Math.floor((Math.random() * (difference + 1) + start));
+
+    }
+
+}
+
+var myNumber = helpers.randomNumber(1,6);
+
+</script>
